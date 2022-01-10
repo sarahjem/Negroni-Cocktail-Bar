@@ -8,7 +8,8 @@
     margin: 0;
 }
 
-/* temporary styles for structural html */
+/* 
+temporary styles for structural html
 
 * {
     padding: 0.5rem;
@@ -22,7 +23,7 @@ body {
 
 h1,h2,h3,h4,h5,h6,p,a {
     border: 2px solid rgb(179,84,84);
-}
+} */
 
 /* Re-usable Utiity Classes  */
 
@@ -50,3 +51,103 @@ h1,h2,h3,h4,h5,h6,p,a {
 .left   { text-align: left; }
 .center { text-align: center; }
 .right  { text-align: right; }
+
+/* General typograghy & universal styles */
+body {
+    font-family: 'Martel'. serif;
+    font-weight: 200;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-family: 'Didot', Georgia, serif;
+}
+
+h1 {
+    font-size: 10rem;
+    line-height: 0.8;
+}
+
+h1 span {
+    display: block;
+    font-size: 3.5rem;
+    line-height: 0.9;
+}
+
+h2 { font-size: 2.5rem; }
+
+h2 span {
+    display: block;
+    font-size: 2rem;
+    line-height: 0.9;
+}
+
+h3 { font-size: 2.5rem; }
+
+p { font-weight: 200; }
+
+a {
+    color: inehrit;
+    text-decoration: none;
+}
+
+/* Unique typography styles */
+.tight-text {
+    line-height: 0.8;
+}
+
+.price {
+    display: block;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    text-align: right;
+}
+
+.text-lg { font-size: 4.5rem; }
+.text-xl { font-size: 6rem;   }
+
+.menu p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.menu h3 {
+    margin: 1rem 0;
+}
+
+/* Header & Footer */
+footer {
+    padding: 5%;
+    padding-bottom: 1rem;
+}
+
+footer a {
+    font-size: 1.2rem;
+}
+
+footer h2 {
+    margin-bottom: 0.5rem;
+}
+
+.sub-footer {
+    padding-top: 5%;
+}
+
+.sub-footer p {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+
+/* Images & Background Images */
+.bg-image {
+    background-color: #183039;
+    background-size: cover;
+    background-position: cetner;
+    background-repeat: no-repeat;
+}
+
+.bg-glass  { background-image: url('images/negroni-glass-faded.jpg') }
+.bg-window { background-image: url('/images/negroni-2.jpg')          }
+.bg-plant  { background-image: url('/images/negroni-4.jpg')          }
+.bg-water  { background-image: url('/images/water-light.jpg')        }
