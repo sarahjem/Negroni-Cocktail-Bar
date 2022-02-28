@@ -1,6 +1,7 @@
 :root {
     --featured: #183039;
     --dark: #24282B;
+    --serif: 'Martel'. serif;
 }
 
 
@@ -61,7 +62,7 @@ h1,h2,h3,h4,h5,h6,p,a {
 
 /* General typograghy & universal styles */
 body {
-    font-family: 'Martel'. serif;
+    font-family: var(--serif);
     font-weight: 200;
 }
 
